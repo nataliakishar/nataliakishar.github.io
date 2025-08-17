@@ -772,10 +772,4 @@ footer span a:hover{
     background: transparent;
     color: var(--main-color);
     box-shadow: none;
-    
-body {
-  cursor: url("sabre_32x32.png") 16 16, auto;
-}
-
-
 }
