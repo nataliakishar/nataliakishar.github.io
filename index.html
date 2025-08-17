@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio | Natália Ramos</title>
+    
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+
+    #bonequinha {
+      position: fixed;
+      bottom: 560px;
+      left: 0;
+      width: 40px;          /* ajuste o tamanho */
+      height: auto;
+      image-rendering: pixelated;   /* mantém pixel art nítido */
+      transform-origin: center;
+      z-index: 9999; /* garante que fique sempre na frente */
+    }
+  </style>
+</head>
+<body>
+    
+    <div class="scroll-up-btn">
+        <ion-icon name="chevron-up-outline"></ion-icon>
+    </div>
+    <div class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#">Port<span>fólio</span></a></div>
+            <ul class="menu">
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#tools">Ferramentas</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#apps">Apps</a></li>
+                <li><a href="#youtube">Youtube</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+            <div class="menu-btn">
+                <ion-icon name="menu-outline"></ion-icon>
+            </div>
+        </div>
+    </div>
+
+    <!--home inicio-->
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-3">eu sou <span class="typing"></span></div>
+                <!-- dentro da section .home -->
+                <a href="https://wa.me/5585999875871" class="btn" target="_blank" rel="noopener">Fale comigo</a>
+                <a href="https://drive.google.com/file/d/1gDm1us62yOyQcJjuZRRpFQJK3DGJT_Hb/view?usp=sharing" class="btn" target="_blank" rel="noopener">Download CV</a>
+                
+            </div>
+        </div>
+    </section>
+
+   <!-- sessão sobre -->
+<section class="about" id="about">
+  <div class="max-width">
+    <h2 class="title">Sobre</h2>
+    <div class="about-content">
+      
+      <!-- coluna esquerda com a foto redonda animada -->
+      <div class="column left">
+        <div class="home-img">
+          <div class="img-box">
+            <div class="img-item">
+              <img src="D:\Natália\nataliakishar.github.io\github.io\imagens\img-1.png" alt="Foto de perfil">
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- coluna direita com o texto -->
+      <div class="column right">
+  <div class="text">Sou Natália e sou <span class="typing-2"></span></div>
+  <p style="text-indent: 50px;">Sou desenvolvedora Full Stack, unindo Matemática e Tecnologia para criar soluções práticas e inovadoras.</p>
+  <p style="text-indent: 50px;">Tenho experiência com Ionic, React, JavaScript, Python e bancos de dados como MySQL e PostgreSQL. Gosto de transformar ideias em sistemas funcionais que otimizam o trabalho e facilitam processos.</p>
+  <p style="text-indent: 50px;">Além do desenvolvimento, coordeno projetos educativos, ministro cursos e atuo como mentora, ajudando outras pessoas a crescerem no universo da programação e da ciência de dados.</p>
+  <p style="text-indent: 50px;">Minha criatividade também se expressa no Blender e em modelagem 3D, explorando projetos low poly e aplicações de visualização digital.</p>
+  <p style="text-indent: 50px;">Se você procura alguém para colaborar em projetos de desenvolvimento web, mobile, análise de dados ou até iniciativas educacionais, pode contar comigo!</p>
+</div>
+
+</section>
+
+                     <!--<a href="#">Download CV</a>-->
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!--sessão ferramentas-->
+     <section class="services" id="tools">
+        <div class="max-width">
+            <h2 class="title">Ferramentas</h2>
+            <div class="serv-content">
+               <div class="card">
+                   <div class="box">
+                    <ion-icon name="play-forward-outline"></ion-icon>
+                    <div class="text">Jogo Star Wars</div>
+                    <p> Jogo star Wars em construção</p><br>
+			   <a href="https://github.com/nataliakishar/JogoPlanetStarWars"> <img src="imagens/button_testar-online.png" alt=""></a>
+			   
+		</div>
+                </div>
+  
+               <div class="card">
+                <div class="box">
+                    <ion-icon name="game-controller-outline"></ion-icon>
+                 <div class="text">Jogo Star Wars</div>
+                 <p>Jogo star Wars em construção</p><br>
+			   <a href="https://github.com/nataliakishar/JogoPlanetStarWars"> <img src="imagens/button_jogar-online.png" alt=""></a>
+                </div>
+            </div>
+		    
+            <div class="card">
+                <div class="box">
+                    <ion-icon name="code-slash-outline"></ion-icon>
+                 <div class="text">Jogo star Wars em construção</div>
+                 <p>Jogo star Wars em construção</p><br>
+			   <a href="https://github.com/nataliakishar/JogoPlanetStarWars"> <img src="imagens/button_incomodar.png" alt=""></a>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+	
+     <!--sessão especialidade-->
+     <section class="skills" id="skills">
+        <div class="max-width">
+            <h2 class="title">Habilidades</h2>
+            <div class="skills-content">
+                <div class="column left">
+                    <div class="text">Minhas habilidades criativas e experiencias</div>
+                    <p style="text-indent: 50px;">Sou um entusiasta de tecnologia com habilidades em diversas linguagens de programação, dentre elas JavaScript e Python. Estou constantemente buscando expandir meus conhecimentos em frameworks como React e Node.js, além de ferramentas como Git e VS Code.</p>
+		    <p style="text-indent: 50px;">Com experiência em trabalhar em projetos em equipe, tenho desenvolvido habilidades em comunicação e colaboração. Tenho trabalhado em projetos em diferentes áreas, incluindo desenvolvimento web, automação de processos e análise de dados.</p>
+		    <p style="text-indent: 50px;">Estou sempre procurando por novas oportunidades para aplicar minhas habilidades em programação e continuar aprendendo.</p>
+                    <a href="https://wa.me/5585999875871">Fale comigo</a>
+                </div>
+                <div class="column right">
+                   <div class="bars">
+                       <div class="info">
+                           <span>HTML</span>
+                           <span>93%</span>
+                       </div>
+                       <div class="line html"></div>
+                   </div>
+                   <div class="bars">
+                    <div class="info">
+                        <span>CSS</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="line css"></div>
+                </div>
+                <div class="bars">
+                    <div class="info">
+                        <span>JavaScript</span>
+                        <span>87%</span>
+                    </div>
+                    <div class="line js"></div>
+                </div>
+                <div class="bars">
+                    <div class="info">
+                        <span>PHP</span>
+                        <span>80%</span>
+                    </div>
+                    <div class="line php"></div>
+                </div>
+                <div class="bars">
+                    <div class="info">
+                        <span>MySQL</span>
+                        <span>100%</span>
+                    </div>
+                    <div class="line mysql"></div>
+                </div>
+		  <div class="bars">
+                    <div class="info">
+                        <span>Java</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="line java"></div>
+                </div>
+		  <div class="bars">
+                    <div class="info">
+                        <span>Python</span>
+                        <span>75%</span>
+                    </div>
+                    <div class="line python"></div>
+                </div>			
+		  
+            </div>
+        </div>
+    </section>
+
+     <!--sessão equipe-->
+     <section class="teams" id="apps">
+        <div class="max-width">
+            <h2 class="title">Meus Apps</h2>
+           <div class="carousel owl-carousel ">
+               <div class="card">
+                   <div class="box">
+                       <a href="https://github.com/nataliakishar"><img src="imagens/ionic.png" alt=""></a>
+                       <div class="text">IONIC</div>
+                       <p>Uma plataforma em construção</p>
+                   </div>
+               </div>
+               <div class="card">
+                <div class="box">
+                    <a href="https://github.com/nataliakishar"><img src="imagens/ionic.png" alt=""></a>
+                    <div class="text">IONIC</div>
+                    <p>Uma plataforma em construção</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <a href="https://github.com/nataliakishar"><img src="imagens/ionic.png" alt=""></a>
+                    <div class="text">IONIC</div>
+                    <p>Uma plataforma em construção</p>
+                </div>
+            </div>
+        
+            
+            </div>
+            
+        </div>
+    </section>
+	
+	
+
+ <!--sessão youtube-->
+     <section class="youtube" id="youtube">
+        <div class="max-width">
+            <h2 class="title">Meus vídeos</h2>
+           <center><div class="carousel2 owl-carousel ">
+<iframe width="300"  src="https://www.youtube.com/embed/lCIATCNK9Xc?si=mfm9NFqyu4DbLE3v" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="300"  src="https://www.youtube.com/embed/4QkMOMOvIHk?si=FxNP4l01w3nN4bwB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="300"  src="https://www.youtube.com/embed/N6VYkDRGz9Q?si=wCdmXNA2VwhRFui5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="300"  src="https://www.youtube.com/embed/H-A1lxgK4hg?si=7yUwodTRRY1L4GmW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560"  src="https://www.youtube.com/embed/24FfzdQKGeM?si=z6hlKOZA7BZDrLId" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>           </div>	
+		   </div></center>
+    </section>	
+	
+	
+	
+	
+	
+    <!--Sessão contato-->
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title">Contato</h2>
+            <div class="contact-content">
+               <div class="column left">
+                   <div class="text">Fale Comigo</div>
+                   <p style="text-indent: 50px;">Gosto de me conectar com profissionais de diferentes áreas e compartilhar experiências em tecnologia, programação, Matemática e modelagem 3D. Se você busca alguém para colaborar em projetos de desenvolvimento de sistemas, aplicativos ou soluções educacionais, terei prazer em conversar com você.</p>
+
+<p style="text-indent: 50px;">Estou sempre aberta a novas oportunidades e acredito que a troca de conhecimento é essencial para o crescimento pessoal e profissional. Tenho interesse em atuar em projetos que envolvam inovação tecnológica, análise de dados e desenvolvimento de soluções digitais que gerem impacto real.</p>
+
+<p style="text-indent: 50px;">Entre em contato por e-mail ou pelo formulário abaixo. Será um prazer discutir possíveis parcerias e oportunidades de trabalho.</p>
+
+               <div class="icons">
+                   <div class="row">
+                        <ion-icon name="person-outline"></ion-icon>
+                        <div class="info">
+                            <div class="head">Nome</div>
+                            <div class="sub-title">Natália Ramos</div>
+                        </div>
+                   </div>
+                   <div class="row">
+                    <ion-icon name="earth-outline"></ion-icon>
+                    <div class="info">
+                        <div class="head">Endereço</div>
+                        <div class="sub-title">Fortaleza, CE - Brasil</div>
+                    </div>
+               </div>
+               <div class="row">
+                <ion-icon name="person-outline"></ion-icon>
+                <div class="info">
+                    <div class="head">Email</div>
+                    <div class="sub-title">rbiomatematica@gmail.com</div>
+                </div>
+           </div>
+               </div>
+            </div><!--column left-->
+            <div class="column rigth">
+                <div class="text">Mensagem</div>
+
+		<form action="https://api.web3forms.com/submit" method="POST">
+             <!-- Replace with your Access Key -->
+            <input type="hidden" name="access_key" value="2bda825c-41d9-4be0-8008-b9d750b33ac7">
+            <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+            <input type="hidden" name="redirect" value="https://seudominio.com/obrigado.html">
+
+                    <div class="fields">
+                        <div class="field name">
+                            <input type="text" name="Nome" placeholder="Nome" required>
+                        </div>
+                        <div class="field email">
+                            <input type="email" name="Email" placeholder="Email" id="email" required>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <div class="field">
+                            <input type="text" placeholder="Celular/Whatsapp" name="Whatsapp" id="whatsapp" required>
+                        </div>
+                        <div class="field textarea">
+                           <textarea  name="mensagem" cols="30" rows="10" placeholder="Mensagem..." required></textarea>
+                        </div>
+                        <div class="button">
+                            <button type="submit" id="my-form-button">Enviar</button>
+
+                        </div><br>
+			      <p id="my-form-status"></p>
+                    </div>
+                </form>
+		    
+		    
+            </div>
+            </div>
+        </div>
+    </section>
+	
+	
+	
+	
+	
+	
+	
+	
+
+    <!--sessão  footer-->
+    <footer>
+        <span>Adaptado por <a href="https://github.com/nataliakishar">Eu mesma</a> | Todos os direitos reservado 2025</span>
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/5.0.5/jquery.inputmask.min.js"></script>
+
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+
+      <img id="bonequinha" src="imagens/reyandando3.png" alt="Bonequinha" />
+
+  <script>
+    const el = document.getElementById("bonequinha");
+
+    // Frames da sua pasta /imagens
+    const frames = [
+      "imagens/reyandando3.png",
+      "imagens/reyandando4.png",
+      "imagens/reyandandoSabre5.png",
+      "imagens/reyandandoSabre6.png",
+    ];
+
+    // Pré-carrega
+    frames.forEach((src) => {
+      const img = new Image();
+      img.src = src;
+      img.onerror = () => console.error("Não encontrei a imagem:", src);
+    });
+
+    let i = 0;
+    let pos = 0;
+    let dir = 1; // 1 = direita, -1 = esquerda
+    const vel = 2; // velocidade px/frame
+    let largura = window.innerWidth;
+
+    window.addEventListener("resize", () => (largura = window.innerWidth));
+
+    // troca frames
+    setInterval(() => {
+      el.src = frames[i];
+      i = (i + 1) % frames.length;
+    }, 120);
+
+    // movimento
+    function step() {
+      pos += dir * vel;
+      const max = largura - el.width - 20;
+
+      if (pos >= max) {
+        dir = -1;
+        el.style.transform = "scaleX(-1)";
+        pos = max;
+      } else if (pos <= 0) {
+        dir = 1;
+        el.style.transform = "scaleX(1)";
+        pos = 0;
+      }
+
+      el.style.left = pos + "px";
+      requestAnimationFrame(step);
+    }
+
+    requestAnimationFrame(step);
+  </script>
+
+    
+
+</body>
+	<script>
+$(document).ready(function(){
+    $('#whatsapp').inputmask("+99 99 99999-9999");
+});
+$(document).ready(function(){
+    $('#email').inputmask({ alias: "email" });
+});
+
+	</script>
+
+	<!-- Place this script at the end of the body tag -->
+<script>
+    var form = document.getElementById("my-form");
+    
+    async function handleSubmit(event) {
+      event.preventDefault();
+      var status = document.getElementById("my-form-status");
+      var data = new FormData(event.target);
+      fetch(event.target.action, {
+        method: form.method,
+        body: data,
+        headers: {
+            'Accept': 'application/json'
+        }
+      }).then(response => {
+        if (response.ok) {
+          status.innerHTML = "Thanks for your submission!";
+          form.reset()
+        } else {
+          response.json().then(data => {
+            if (Object.hasOwn(data, 'errors')) {
+              status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
+            } else {
+              status.innerHTML = "Oops! There was a problem submitting your form"
+            }
+          })
+        }
+      }).catch(error => {
+        status.innerHTML = "Oops! There was a problem submitting your form"
+      });
+    }
+    form.addEventListener("submit", handleSubmit)
+</script>
+</html>
