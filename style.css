@@ -128,6 +128,16 @@ html{
     background: none;
 }
 
+.text-4 {
+  font-size: 1.5rem; 
+  margin-top: 100px; 
+  font-weight: bold;
+  color: #cec107;
+  text-shadow: 2px 2px 6px #000; /* sombra preta suave */
+  position: absolute;
+  left: 30px;  /* distância da borda esquerda */
+}
+
 /*  Menu  Mobile  */
 .menu-btn{
     color: #fff;
