@@ -410,7 +410,7 @@ section .title::after{
 }
 /*  sessão equipe  */
 .teams .title::after{
-    content: "Android, iOS, Web, Linux e Windows";
+    content: "Android, iOS e Web";
 }
 
 }.teams .carousel .card{
