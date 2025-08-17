@@ -411,12 +411,8 @@ section .title::after{
 /*  sessão equipe  */
 .teams .title::after{
     content: "Android, iOS, Web, Linux e Windows";
-    display: block;
-    margin-top: 10px;   /* afasta do título */
-    font-size: 20px;
-    color: #cec107;
-    position: static;   /* remove o absolute herdado */
-    background: none;   /* opcional, para não herdar fundo branco */
+}
+
 }.teams .carousel .card{
     background: #222;
     border-radius: 6px;
