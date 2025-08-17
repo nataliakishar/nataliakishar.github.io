@@ -71,15 +71,16 @@ html{
     color: #fff;
 }
 /*  Home   inicio  */
-.home{
-    display: flex;
-    background: url(imagens/banner.png) no-repeat;
-    background-size: cover;
-    height: 100vh;
-    color: #fff;
-    min-height: 500px;
-    font-family: 'Ubuntu', sans-serif;
+.home {
+  display: flex;
+  background: url(imagens/banner.png) no-repeat center top; /* ou center right */
+  background-size: cover;   /* continua cobrindo a tela */
+  height: 100vh;
+  color: #fff;
+  min-height: 500px;
+  font-family: 'Ubuntu', sans-serif;
 }
+
 .home .max-width{
     margin: auto 0 auto 40px;
 }
