@@ -73,8 +73,9 @@ html{
 /*  Home   inicio  */
 .home {
   display: flex;
-  background: url(imagens/banner.png) no-repeat center top; /* ou center right */
-  background-size: cover;   /* continua cobrindo a tela */
+  background: url(imagens/banner.png) no-repeat center center;
+  background-size: contain;   /* mostra a imagem inteira */
+  background-color: #0d6efd;  /* cor de fundo para tapar buracos */
   height: 100vh;
   color: #fff;
   min-height: 500px;
