@@ -209,6 +209,7 @@ section .title::after{
 .about .about-content,
 .services .serv-content,
 .skills .skills-content,
+.teams  .teams-content,
 .contact .contact-content{
     display: flex;
     flex-wrap: wrap;
