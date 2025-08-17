@@ -73,7 +73,7 @@ html{
 /*  Home   inicio  */
 .home {
     display: flex;
-    background: url("imagens/banner.png") no-repeat center center;
+    background: url("imagens/banner1.png") no-repeat center center;
     background-size: cover;       /* Faz preencher a tela */
     background-attachment: fixed; /* opcional em desktop */
     
