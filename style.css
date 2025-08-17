@@ -102,6 +102,16 @@ html{
     color:#cec107 ;
     font-weight: 500;
 }
+
+.text-4 {
+  font-size: 1.5rem; 
+  margin-top: 100px; 
+  font-weight: bold;
+  color: #cec107;
+  text-shadow: 2px 2px 6px #000; /* sombra preta suave */
+  position: absolute;
+  left: 30px;  /* distância da borda esquerda */
+}
 /* estilo antigo de link da home (continua valendo para <a> sem .btn) */
 .home .home-content a{
     display: inline-block;
