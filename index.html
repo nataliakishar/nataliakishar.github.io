@@ -300,18 +300,18 @@
 
                     <div class="fields">
                         <div class="field name">
-                            <input type="text" name="Nome" placeholder="Nome" required>
+                            <input type="text" name="Nome" placeholder="Nome" required autocomplete="off>
                         </div>
                         <div class="field email">
-                            <input type="email" name="Email" placeholder="Email" id="email" required>
+                            <input type="email" name="Email" placeholder="Email" id="email" required autocomplete="off>
                         </div>
                     </div>
                     <div class="field">
                         <div class="field">
-                            <input type="text" placeholder="Celular/Whatsapp" name="Whatsapp" id="whatsapp" required>
+                            <input type="text" placeholder="Celular/Whatsapp" name="Whatsapp" id="whatsapp" required autocomplete="off>
                         </div>
                         <div class="field textarea">
-                           <textarea  name="mensagem" cols="30" rows="10" placeholder="Mensagem..." required></textarea>
+                           <textarea  name="mensagem" cols="30" rows="10" placeholder="Mensagem..." required autocomplete="off></textarea>
                         </div>
                         <div class="button">
                             <button type="submit" id="my-form-button">Enviar</button>
@@ -347,9 +347,6 @@
     }
   });
 
- window.onload = function() {
-    document.getElementById("my-form").reset();
-  };
 </script>
 		    
 		    
