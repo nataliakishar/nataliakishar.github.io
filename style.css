@@ -406,7 +406,7 @@ section .title::after{
 }
 /*  sessão equipe  */
 .teams .title::after{
-    content: "Android, iOS, Web, Linux e Windows";
+    content: "Android-iOS";
 }
 .teams .carousel .card{
     background: #222;
