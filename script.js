@@ -16,13 +16,13 @@ $(document).ready(function(){
      });
 
      var typed = new Typed(".typing", {
-         strings:["Full Stack", "Estudante", "Analista", "Programadora", "ABG", "Mentora", "Jedi"],
+         strings:["Full Stack", "Estudante", "Analista", "Dev", "ABG", "Mentora", "Jedi"],
          typeSpeed:100,
          backSpeed:60,
          loop:true
      });
      var typed = new Typed(".typing-2", {
-        strings:["Full Stack", "Analista", "Programadora", "Jedi", "Instrutora", "Mentora"],
+        strings:["Full Stack", "Estudante", "Analista", "Dev", "Jedi", "Instrutora", "Mentora"],
         typeSpeed:100,
         backSpeed:60,
         loop:true
