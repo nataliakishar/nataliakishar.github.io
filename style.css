@@ -13,7 +13,7 @@ html{
 /* === Variáveis usadas pelo botão neon e por outros elementos === */
 :root{
     --main-color: #cec107;   /* verde do botão neon */
-    --bg-color: #0f172a;     /* fundo escuro usado no hover e em círculos */
+    --bg-color: #1d202f;     /* fundo escuro usado no hover e em círculos */
 }
 
 .max-width{
@@ -125,7 +125,7 @@ html{
   margin-top: 100px; 
   font-weight: bold;
   color: #cec107;
-  text-shadow: 2px 2px 6px #000; /* sombra preta suave */
+  text-shadow: 2px 2px 6px #1d202f; /* sombra preta suave */
   position: absolute;
   left: 30px;  /* distância da borda esquerda */
 }
@@ -258,7 +258,7 @@ section .title::after{
 
 /*  sessão serviços */
 .services, .teams{
-    background: #111;
+    background: #1d202f;
     color: #fff;
 }
 .services .title::before,
@@ -267,26 +267,26 @@ section .title::after{
 }
 .services .title::after,
 .teams .title::after{
-    background: #111;
+    background: #1d202f;
     content: "Uso livre";
 }
 
 
 .youtube{
-    background: #111;
+    background: #1d202f;
     color: #fff;
 }
 .youtube .title::before{
     background: #fff;
 }
 .youtube .title::after{
-    background: #111;
+    background: #1d202f;
     content: "Youtube";
 }
 
 .services .serv-content .card{
     width: calc(33% - 20px);
-    background: #222;
+    background: #1d202f;
     text-align: center;
     border-radius: 6px;
     padding: 20px 25px;
@@ -409,7 +409,7 @@ section .title::after{
     content: "Android-iOS";
 }
 .teams .carousel .card{
-    background: #222;
+    background: #1d202f;
     border-radius: 6px;
     padding: 25px 35px;
     text-align: center;
@@ -560,7 +560,7 @@ section .title::after{
 
 /*  sessão footer  */
 footer{
-    background: #111;
+    background: #1d202f;
     padding: 20px 23px;
     color: #fff;
     text-align: center;
@@ -783,7 +783,7 @@ footer span a:hover{
 .skills .skills-content .left a.btn{
     background: var(--main-color);
     border-color: var(--main-color);
-    color: #1d202f;
+    color: #0b1220;
     border-radius: 999px;
     box-shadow: 0 0 18px var(--main-color);
 }
@@ -822,4 +822,3 @@ footer span a:hover{
 }
 
 
-}
