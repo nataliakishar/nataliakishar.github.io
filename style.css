@@ -752,7 +752,7 @@ footer span a:hover{
     box-shadow: 0 0 18px var(--main-color);
     font-size: 16px;
     font-weight: 600;
-    color: #0b1220;                  /* texto escuro no verde */
+    color: #1d202f;                  /* texto escuro no verde */
     transition: .3s ease;
 }
 .btn:hover{
@@ -765,7 +765,7 @@ footer span a:hover{
 .home .home-content a.btn{
     background: var(--main-color);
     border-color: var(--main-color);
-    color: #0b1220;
+    color: #1d202f;
     font-size: 20px;
     padding: 12px 28px;
     border-radius: 999px;
@@ -783,7 +783,7 @@ footer span a:hover{
 .skills .skills-content .left a.btn{
     background: var(--main-color);
     border-color: var(--main-color);
-    color: #0b1220;
+    color: #1d202f;
     border-radius: 999px;
     box-shadow: 0 0 18px var(--main-color);
 }
