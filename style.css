@@ -13,7 +13,7 @@ html{
 /* === Variáveis usadas pelo botão neon e por outros elementos === */
 :root{
     --main-color: #cec107;   /* verde do botão neon */
-    --bg-color: #1d202f;     /* fundo escuro usado no hover e em círculos */
+    --bg-color: #071430;     /* fundo escuro usado no hover e em círculos */
 }
 
 .max-width{
@@ -125,7 +125,7 @@ html{
   margin-top: 100px; 
   font-weight: bold;
   color: #cec107;
-  text-shadow: 2px 2px 6px #1d202f; /* sombra preta suave */
+  text-shadow: 2px 2px 6px #071430; /* sombra preta suave */
   position: absolute;
   left: 30px;  /* distância da borda esquerda */
 }
@@ -258,7 +258,7 @@ section .title::after{
 
 /*  sessão serviços */
 .services, .teams{
-    background: #1d202f;
+    background: #071430;
     color: #fff;
 }
 .services .title::before,
@@ -267,26 +267,26 @@ section .title::after{
 }
 .services .title::after,
 .teams .title::after{
-    background: #1d202f;
+    background: #071430;
     content: "Uso livre";
 }
 
 
 .youtube{
-    background: #1d202f;
+    background: #071430;
     color: #fff;
 }
 .youtube .title::before{
     background: #fff;
 }
 .youtube .title::after{
-    background: #1d202f;
+    background: #071430;
     content: "Youtube";
 }
 
 .services .serv-content .card{
     width: calc(33% - 20px);
-    background: #1d202f;
+    background: #071430;
     text-align: center;
     border-radius: 6px;
     padding: 20px 25px;
@@ -409,7 +409,7 @@ section .title::after{
     content: "Android-iOS";
 }
 .teams .carousel .card{
-    background: #1d202f;
+    background: #071430;
     border-radius: 6px;
     padding: 25px 35px;
     text-align: center;
@@ -497,7 +497,7 @@ section .title::after{
     font-weight: 500;
 }
 .contact .contact-content .row .info .sub-title{
-    color: #1d202f;
+    color: #071430;
 }
 .contact .contact-content .row ion-icon{
     font-size: 25px;
@@ -560,7 +560,7 @@ section .title::after{
 
 /*  sessão footer  */
 footer{
-    background: #1d202f;
+    background: #071430;
     padding: 20px 23px;
     color: #fff;
     text-align: center;
@@ -752,7 +752,7 @@ footer span a:hover{
     box-shadow: 0 0 18px var(--main-color);
     font-size: 16px;
     font-weight: 600;
-    color: #1d202f;                  /* texto escuro no verde */
+    color: #071430;                  /* texto escuro no verde */
     transition: .3s ease;
 }
 .btn:hover{
@@ -765,7 +765,7 @@ footer span a:hover{
 .home .home-content a.btn{
     background: var(--main-color);
     border-color: var(--main-color);
-    color: #1d202f;
+    color: #071430;
     font-size: 20px;
     padding: 12px 28px;
     border-radius: 999px;
